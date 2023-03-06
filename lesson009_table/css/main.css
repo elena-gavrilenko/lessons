@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.wrapper{
+    max-width: 960px;
+    margin: 60px auto;
+    background-color: #fff;
+}
+.wrapper table{
+    
+    width: 100%;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+.wrapper table td,
+.wrapper table th{
+    vertical-align: bottom;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid blue;
+    transition: 0.6s;
+    
+}
+.wrapper tr:nth-child(2n){
+    background-color: #eee;
+}
+.wrapper tr:nth-child(2n+1){
+    background-color: #ddd;
+}
+.wrapper table td:hover,
+.wrapper table th:hover{
+    background-color: #222;
+    color: #fff;
+}
