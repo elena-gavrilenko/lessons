@@ -1,0 +1,55 @@
+:root{
+    --bgcBase: #ccc;
+    --ffBase: sans-serif;
+    --fszBase: 18px;
+    --lhBase: 24px;
+    --colorBase: #222;
+    --maxw: 960px;
+    --minw: 320px;
+}
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bgcBase);
+    font-family: var(--ffBase);
+    font-size: var(--fszBase);
+    line-height: var(--lhBase);
+    color: var(--colorBase);
+}
+.wrapper{
+    max-width: var(--maxw);
+    min-width: var(--minw);
+    margin: 60px auto;
+}
+.wrapper img{
+    width: 100%;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+}
+.fName,
+.fPhon{
+    padding: 15px;
+}
+.wrapper input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    display: block;
+    outline: none;
+}
+.wrapper input[type="submit"]{
+    width: 50%;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.wrapper form{
+    text-align: center;
+}
