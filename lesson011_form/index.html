@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <a href="#down">вниз</a>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <img src="https://api.lorem.space/image/watch?w=800&h=480&hash=jkmxl496" alt="">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto est iusto sequi ratione, asperiores ex perspiciatis reprehenderit veritatis beatae optio at facilis maxime quae adipisci culpa, in, officia omnis. Recusandae?</p>
+        <p>Asperiores praesentium quia, laudantium fuga nisi, ducimus tempore, natus quod fugit id quaerat? Ad eum iste, culpa eos dolor enim, quaerat soluta eaque nostrum ipsam distinctio molestias vel voluptatibus esse.</p>
+        <p>Porro vero odit tempora aspernatur fugit odio nam sed cumque nisi consequuntur magnam recusandae illo cupiditate fuga voluptate, reprehenderit saepe dolorem similique hic! Dignissimos corporis laboriosam aliquid commodi a minima!</p>
+        <hr>
+        <form action="send.html" method="GET" name="form1">
+            <label>
+                <p class="fName">Укажите ваше имя</p>
+                <input type="text" name="form1_name" placeholder="Например, Ирина" required maxlength="20" pattern="^[А-Яа-яЁё\s]+$">
+            </label>
+            <label for="form1_phone"><p class="fPhon">Укажите ваш телефон</p></label >
+            <input id="form1_phone" type="text" name="form1_phone" placeholder="Например, +375117451123" required maxlength="13">
+            <input type="submit" value="Оставь свои контакты" >
+            <input type="reset" value="Очистить форму">
+            <input type="image" src="img/button.png">
+            <input type="button" value="Кнопка" >
+            <hr>
+            <input type="date">
+            <hr>
+            <p>Курите ли вы?</p>
+            <label>Да <input type="radio" name="smog" value="yes"></label>
+            <label>Нет <input type="radio" name="smog" value="no" checked></label>
+            <hr>
+            <p>Какие газеты вы читаете?</p>
+            <label>Аргументы и факты <input type="checkbox"  name="aif"></label>
+            <label>Гомельская правда <input type="checkbox"  name="gm"></label>
+            <label>Комсомольская правда <input type="checkbox"  name="km"></label>
+            <label>
+                Не читаю <input type="checkbox"  name="no">
+            </label>
+            <hr>
+            <p>Сколько часов в сутки вы спите?</p>
+            <select name="sleep" size="4">
+                <option>1ч</option>
+                <option>2ч</option>
+                <option >3ч</option>
+                <option>4ч</option>
+                <option>5ч</option>
+                <option selected>6ч</option>
+                <option>7ч</option>
+                <option>8ч</option>
+                <option value="9">более 8ч</option>
+            </select>
+            <hr>
+            <input list="меню" name="menu">
+            <datalist id="меню">
+                <option value="Кофе">Кофе</option>
+                <option value="Булочка">Булочка</option>
+                <option value="2">тост</option>
+                <option value="1">Булочка</option>
+            </datalist>
+            <hr>
+            <p>Оставьте ваше сообщение ниже:</p>
+            <textarea name="form1_text" cols="80" rows="20" placeholder="Введите информацию"></textarea>
+        </form>
+        <hr id="down">    
+    </div>
+</body>
+</html>
