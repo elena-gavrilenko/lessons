@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+.wrapper {
+    max-width: 1200px;
+    /* min-height: 100vh; */
+    margin: 40px auto;
+    background-color: #fff;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* главная ось */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item {
+    /* width: 200px; */
+    /* height: 200px; */
+    background-color: #a3caa2;
+    border: 1px solid #000;
+    margin: 5px;
+    flex-basis: 15%;
+    /* flex-grow: 1; */
+}
+.item1 {
+    
+}
+.item2 {
+    
+}
+.item3 {
+    /* flex-basis: 50%; */
+    
+}
+.item4 {
+    order: -1;
+    align-self: baseline;
+}
+.item5 {
+    order: -1;
+}
