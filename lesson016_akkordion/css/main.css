@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    min-height: 100vh;
+    text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+}
+
+/* .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item{
+    background-color: #a8a9a9;
+    flex-basis: 25%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.item:hover{
+    flex-basis: 100%;
+}
+
+.item1{
+    background-image: url("https://api.lorem.space/image/fashion?hash=yzvnboip");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item2{
+    background-image: url("https://api.lorem.space/image/car?hash=iyeqe17c");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item3{
+    background-image: url("https://api.lorem.space/image/house?hash=fniphlf4");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item4{
+    background-image: url("https://api.lorem.space/image/drink?hash=qxf3w9ea");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 800px) {
+    .slider{
+        /* display: none; */
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+}
