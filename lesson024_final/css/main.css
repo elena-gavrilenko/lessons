@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc((20 / 14) * 100%);
+    color: #737373;
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+}
+/* ----------NAV------------------------- */
+
+._container{
+    max-width: 1043px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header__body{
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+}
+
+.header__body .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__body .nav ul > *:not(:last-child){
+    margin-right: 21px;
+}
+
+.header__body .nav ul li{
+    list-style: none;
+    
+    
+}
+
+.header__body .nav ul li a{
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 0 132px 0 0;
+}
+
+/* ----------Firts Screen------------------------- */
+
+.firstScreen {
+    background-image: url("../img/firstscr/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+    
+    overflow: hidden;
+}
+.firstScreen__body {
+}
+.firstScreen__bodyContainer {
+    margin-top: 184px;
+    max-width: 395px;
+}
+
+.firstScreen__bodyContainer > *:not(:last-child){
+    margin-bottom: 35px;
+}
+.firstScreen__bodyContainerTitle {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 138%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.firstScreen__bodyContainerText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.firstScreen__bodyContainerBtns {
+}
+.firstScreen__bodyContainerBtnOrange {
+}
+.firstScreen__bodyContainerBtn {
+}
