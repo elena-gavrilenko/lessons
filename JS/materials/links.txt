@@ -1,7 +1,0 @@
-https://learn.javascript.ru/
-https://developer.mozilla.org/ru/docs/Web/JavaScript
-
-https://habr.com/ru/
-https://ru.stackoverflow.com/
-
-https://www.codewars.com/
