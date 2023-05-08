@@ -1,0 +1,11 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#backgr{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+}
