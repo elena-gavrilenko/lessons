@@ -1,0 +1,14 @@
+/* body{
+    text-align: center;
+} */
+.form, .division, .paragraph{
+    padding: 20px;
+    border: 1px solid blue;
+
+}
+#form{
+    margin: 20px;
+}
+#subm{
+    outline: none;
+}
