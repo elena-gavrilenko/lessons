@@ -1,0 +1,9 @@
+#map_wrapper {
+    width: 550px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#map_wrapper > img {
+    width: 100%;
+}
