@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2d;
+    padding: 10px;
+}
+.btn{
+    width: 110px;
+    padding: 20px;
+    background-color: brown;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.usesrs{
+    display: flex;
+    gap: 40px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: #fff;
+    border-radius: 10Px;
+    padding: 10px;
+}
