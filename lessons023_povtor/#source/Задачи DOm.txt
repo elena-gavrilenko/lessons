@@ -1,0 +1,20 @@
+Вам дан HTML код.
+Необходимо создать такую же структуру HTML-элемента через JavaScript и добавить итоговый элементы внутрь тега body.
+
+Решите задачу 2-мя способами:
+1. через innerHTML;
+2. через document.createElement.
+
+<form class="create-user-form">
+        <label>
+            Имя
+            <input type="text" name="userName" placeholder="Введите ваше имя">
+        </label>
+        <label>
+            Пароль
+            <input type="password" name="password" placeholder="Придумайте пароль">
+        </label>
+        <button type="submit">
+            Подтвердить
+        </button>
+</form>
