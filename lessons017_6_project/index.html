@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIM GAME</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="screen">
+        <h2>Aim Training</h2>
+        <a href="#" class="start" id="start">Начать игру</a>
+    </div>
+    <div class="screen">
+        <h2>Выберите сложность</h2>
+        <ul class="dif-list" id="dif-list">
+            <li><button class="dif-btn" data-dif="easy">easy</button></li>
+            <li><button class="dif-btn" data-dif="standart">standart</button></li>
+            <li><button class="dif-btn" data-dif="difficult">difficult</button></li>
+            
+        </ul>
+    </div>
+    <div class="screen">
+        <h2>Выберите время</h2>
+        <ul class="time-list" id="time-list">
+            <li><button class="time-btn" data-time="5">5 сек</button></li>
+            <li><button class="time-btn" data-time="10">10 сек</button></li>
+            <li><button class="time-btn" data-time="20">20 сек</button></li>
+            <li><button class="time-btn" data-time="30">30 сек</button></li>
+        </ul>
+    </div>
+ 
+    <div class="screen">
+        <h3>Осталось: <span id="time">00:00</span></h3>
+        <div class="board" id="board"></div>
+        <button class="restart hide" id="restart">Рестарт</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
