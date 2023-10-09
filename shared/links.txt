@@ -1,9 +1,0 @@
-
-НОДА - ставить LTS
-https://nodejs.org/en
-
-webpack
-https://webpack.js.org/concepts/
-
-typescript
-https://www.typescriptlang.org/docs/
