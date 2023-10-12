@@ -1,0 +1,32 @@
+
+.todoItem {
+    border-radius: 10px;
+    background-color: #353535;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 200px;
+    font-family: 'Segoe UI';
+}
+
+.text {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.icon {
+    color: #fffdc9;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #c8c7a0;
+}
+
+.icon:not(:last-child) {
+    margin-right: 7px;
+}
+
