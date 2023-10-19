@@ -1,0 +1,20 @@
+<h2 class="text-primary text-center">Main Component</h2>
+<h3>Привязка даннных</h3>
+<!-- первый вариант заполнения элемента -->
+<p>Привязка контента - {{name}}</p>
+<!-- второй вариант заполнения элемента -->
+<p [textContent]="date"></p>
+<figure class="text-center">
+    <img [src]="src" alt="" [style.width]="'50%'">
+</figure>
+<h3>Отображение массива</h3>
+<ul>
+    <li *ngFor="let item of data">{{item}}</li>
+</ul>
+<h3>Взаимодействие с элементами формы</h3>
+<input type="text" [value]="name">
+<!-- чтобы обеспечить двустороннюю привязку мы используем formsModul -->
+<input type="text" [(ngModel)]="name">
+<h3>Привязка к событиям</h3>
+<button (click)="hideBlock()">Скрыть блок</button>
+<div [ngClass]="visible? '':'hide'"></div>

@@ -1,0 +1,10 @@
+div {
+    margin: 0.5em;
+    width: 50vw;
+    height: 20vh;
+    background-color: brown;
+}
+
+.hide {
+    visibility: hidden;
+}
