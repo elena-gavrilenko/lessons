@@ -1,0 +1,31 @@
+<h1 [ngClass]="'text-center'">{{ title }}</h1>
+
+<div [style.width]="'20vw'" [style.height]="'20vh'" [ngClass]="'bordered'"></div>
+<div [style.width]="'20vw'" [style.height]="'20vh'" [ngClass]="{bordered: false}"></div>
+<div [style.width]="'20vw'" [style.height]="'20vh'" [ngClass]="{bordered: true}"></div>
+<input type="checkbox" (click)="checkBordered()"> 
+<div [style.width]="'20vw'" [style.height]="'20vh'" [ngClass]="{bordered: isBordered, blue: true}"></div>
+<div [style.width]="'20vw'" [style.height]="'20vh'" [ngClass]="classList"></div>
+
+<p [ngStyle]="{color: 'red', backgroundColor: 'yellow'}">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maxime libero nemo officiis et, vero ipsa eaque ipsum veritatis, nisi deleniti accusamus necessitatibus suscipit impedit sit sunt velit vitae ducimus.</p>
+
+<p *ngIf="isBordered">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo labore corporis, ipsum culpa minus vero placeat in et asperiores odit quibusdam expedita veniam doloribus odio? Dolores architecto exercitationem nesciunt?</p>
+<p *ngIf="!isBordered">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo labore corporis, ipsum culpa minus vero placeat in et asperiores odit quibusdam expedita veniam doloribus odio? Dolores architecto exercitationem nesciunt?</p>
+
+
+    <input type="number" [(ngModel)]="choice">
+    <ul [ngSwitch]="choice">
+      <li *ngSwitchCase="1">First choice</li>
+      <li *ngSwitchCase="2">Second choice</li>
+      <li *ngSwitchCase="3">Third choice</li>
+      <li *ngSwitchCase="4">Fourth choice</li>
+      <li *ngSwitchCase="2">Second choice, again</li>
+      <li *ngSwitchDefault>Default choice</li>
+    </ul>
+
+    <ul>
+        <li *ngFor="let item of classList; let i = 'index + 1'">{{i}}. {{item}}</li>
+    </ul> 
+
+    <p marked>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet possimus, perspiciatis omnis nostrum, maiores recusandae deserunt, totam cumque doloribus id ea quibusdam? Dolore modi, esse architecto unde pariatur repudiandae error?</p>
+
