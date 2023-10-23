@@ -6,15 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app-first';
-  
-  // для ng class
-isBorder=true;
-classlist = ['blue','round'];
+  title = 'Guess number';
+ 
+  countTry=0;
+  guessNumber=Math.round(Math.random()*100);
+  userNumber=0;
+  deviation=-101;
 
-checkBorder():void{
-  this.isBorder=!this.isBorder;
-}
+  verify():void{
+    this.deviation=this.guessNumber-this.userNumber;
+    this.countTry++
+  }
 
-choice=0;
+  reset():void{
+    this.countTry=0;
+    this.guessNumber=Math.round(Math.random()*100);
+    this.userNumber=0;
+    this.deviation=-101;
+  }
+
+
 }
