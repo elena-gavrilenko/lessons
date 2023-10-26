@@ -1,0 +1,6 @@
+<h1 class="text-primary text-center">{{ title }}</h1>
+<h2 class="text-center">Родительский компонент</h2>
+<p [textContent]="title"></p>
+<p>Данные из дочернего компонента - {{text}}</p>
+<app-child [text]="'simple text'" [user]="user" (onSendData)="getData($event)"></app-child>
+<!-- двойные кавычки это просто текст -->
