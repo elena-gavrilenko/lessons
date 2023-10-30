@@ -1,0 +1,8 @@
+<h2 class="text-center"></h2>
+<button (click)="getData()">Get data</button>
+
+<h3>Using HttpClient</h3>
+<button (click)="getClientData()">Get data with HttpClient</button>
+<br>
+<div class="spinner-border text-primary my-2" *ngIf="isLoading"></div>
+<pre *ngIf="!isLoading">{{data | json}}</pre>
