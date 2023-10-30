@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import Car from './model/data.model';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-first';
-  userName = 'nick';
+  cars: Car[];
+
+  constructor(private DataService:DataService){
+    this.cars=DataService.getCars()
+  }
 }

@@ -5,21 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
-import { PipeComponent } from './pipe/pipe.component';
-import { HttpComponent } from './http/http.component';
-import {HttpClientModule} from '@angular/common/http'
+import { CarComponent } from './car/car.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PipeComponent,
-    HttpComponent
-  ],
+    CarComponent
+     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    HttpClientModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
