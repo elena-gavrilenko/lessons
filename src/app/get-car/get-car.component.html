@@ -1,0 +1,3 @@
+<h2>Получить ав томобиль по id</h2>
+<input type="text" [(ngModel)]="id" (change)="getCar()">
+<app-car [car]="car" *ngIf="id"></app-car>
