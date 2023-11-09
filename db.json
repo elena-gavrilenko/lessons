@@ -1,0 +1,36 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "marka": "vw",
+      "model": "polo",
+      "color": "red",
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/VW_Polo_beats_%28VI%29_%E2%80%93_f_03032019_%28exposure_adjusted%29.jpg/280px-VW_Polo_beats_%28VI%29_%E2%80%93_f_03032019_%28exposure_adjusted%29.jpg",
+      "year": 2015
+    },
+    {
+      "id": 2,
+      "marka": "vw",
+      "model": "boro",
+      "color": "blue",
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Volkswagen_Jetta_registered_March_2002_1984cc_02.jpg/1920px-Volkswagen_Jetta_registered_March_2002_1984cc_02.jpg",
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "marka": "audi",
+      "model": "q5",
+      "color": "metalic",
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2017_Audi_Q5_%28FY%29_TDI_Sport_quattro_ultra_wagon_%282018-09-17%29_01.jpg/1920px-2017_Audi_Q5_%28FY%29_TDI_Sport_quattro_ultra_wagon_%282018-09-17%29_01.jpg",
+      "year": 2020
+    },
+    {
+      "id": 4,
+      "marka": "geely",
+      "model": "emgrand",
+      "color": "red",
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Geely_Emgrand_IV_004.jpg",
+      "year": 2021
+    }
+  ]
+}
