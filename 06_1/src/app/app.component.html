@@ -1,0 +1,45 @@
+<div class="container col-10">
+
+<header>
+    <h1 class="text-center">{{title}}</h1>
+</header>
+
+
+
+<!-- https://jsonplaceholder.typicode.com/ -корень -->
+<!-- https://jsonplaceholder.typicode.com/todos -маршрут -->
+<!-- https://jsonplaceholder.typicode.com/todos/1-параметр(уточнение) -->
+<!-- в ahgular можно брать маршрутизацию на себя -->
+<!-- на вопрос про routing овечаем yes и создвется самостоятельная маршрутиация (файлы app.routing) -->
+<!-- маршруты прописываются в массиве Routes -->
+
+
+<!-- router-outlet используют для выбора маршрута -->
+<!-- то что вне router отображается постоянно, а то что внутри отображается согласно названиям маршрута внутри Routes -->
+
+
+<nav class="d-flex justify-content-between bg-info rounded-2 p-2">
+    <div class="d-flex justify-content-start col-5">
+        <a routerLink="">CarsList</a>
+        <a routerLink="/add" (click)="login()">AddCar</a>
+    </div>
+    <div class="d-flex justify-content-end col-5">
+
+        <a routerLink="/login" *ngIf="!isLoggedIn" (click)="login()">login</a>
+        <a routerLink="" *ngIf="isLoggedIn" (click)="logout()">Logout</a>
+        <input 
+        type="text" 
+        class="rounded" 
+        [(ngModel)]="searchString"
+        (change)="search()"
+        >
+    </div>
+    
+  
+</nav>
+<router-outlet>
+   
+</router-outlet>
+</div>
+
+<!-- создание файла в data.service npx ng generate service data    -->
