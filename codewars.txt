@@ -1,0 +1,239 @@
+# Design patterns
+
+* 7 kyu https://www.codewars.com/kata/singleton-pattern
+* 7 kyu https://www.codewars.com/kata/patterncraft-adapter
+* 7 kyu https://www.codewars.com/kata/patterncraft-visitor
+* 6 kyu https://www.codewars.com/kata/patterncraft-state
+* 6 kyu https://www.codewars.com/kata/patterncraft-strategy
+* 6 kyu https://www.codewars.com/kata/patterncraft-decorator
+* 6 kyu https://www.codewars.com/kata/create-iterator
+* 6 kyu https://www.codewars.com/kata/sortable-shapes
+* 4 kyu https://www.codewars.com/kata/dependency-injection
+
+
+# Functional programming
+
+* 7 kyu https://www.codewars.com/kata/first-class-function-factory
+* 7 kyu https://www.codewars.com/kata/the-wheat-slash-rice-and-chessboard-problem
+* 6 kyu https://www.codewars.com/kata/function-composition
+* 6 kyu https://www.codewars.com/kata/function-composition-1
+* 6 kyu https://www.codewars.com/kata/reusable-memoisation
+* 6 kyu https://www.codewars.com/kata/mutual-recursion
+* 6 kyu https://www.codewars.com/kata/once 
+* 6 kyu https://www.codewars.com/kata/multifilter 
+* 6 kyu https://www.codewars.com/kata/combinator-flip 
+* 5 kyu https://www.codewars.com/kata/function-cache
+* 5 kyu https://www.codewars.com/kata/a-chain-adding-function 
+* 5 kyu https://www.codewars.com/kata/lazy-repeater 
+* 4 kyu https://www.codewars.com/kata/currying-vs-partial-application
+
+
+# Classes, Prototypes & OOP
+
+* 7 kyu https://www.codewars.com/kata/santaclausable-interface
+* 7 kyu https://www.codewars.com/kata/javascript-class-like-objects
+* 7 kyu https://www.codewars.com/kata/the-newest-function
+* 7 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance
+* 7 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-4-cubes-and-setters
+* 6 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-6-fake-files-basic
+* 6 kyu https://www.codewars.com/kata/defining-getters-and-setters-on-an-existing-class 
+* 6 kyu https://www.codewars.com/kata/array-helpers
+* 6 kyu https://www.codewars.com/kata/array-number-reduce
+* 6 kyu https://www.codewars.com/kata/extract-nested-object-reference
+* 6 kyu https://www.codewars.com/kata/image-host-filename-generator
+* 6 kyu https://www.codewars.com/kata/implementing-object-dot-create
+* 5 kyu https://www.codewars.com/kata/using-closures-to-share-class-state
+* 5 kyu https://www.codewars.com/kata/replicate-new
+* 5 kyu https://www.codewars.com/kata/paginationhelper
+* 4 kyu https://www.codewars.com/kata/undo-slash-redo
+
+
+
+## Numbers, strings
+
+* 7 kyu https://www.codewars.com/kata/absent-vowel 
+* 7 kyu https://www.codewars.com/kata/get-the-middle-character
+* 7 kyu https://www.codewars.com/kata/highest-and-lowest
+* 7 kyu https://www.codewars.com/kata/jaden-casing-strings
+* 7 kyu https://www.codewars.com/kata/disemvowel-trolls
+* 7 kyu https://www.codewars.com/kata/isograms
+* 7 kyu https://www.codewars.com/kata/nickname-generator
+* 7 kyu https://www.codewars.com/kata/digits-explosion
+* 7 kyu https://www.codewars.com/kata/which-color-is-the-brightest
+* 6 kyu https://www.codewars.com/kata/handshake-problem 
+* 6 kyu https://www.codewars.com/kata/reverse-or-rotate 
+* 6 kyu https://www.codewars.com/kata/multiples-of-3-or-5
+* 6 kyu https://www.codewars.com/kata/duplicate-encoder
+* 6 kyu https://www.codewars.com/kata/n-th-fibonacci
+* 4 kyu https://www.codewars.com/kata/human-readable-duration-format
+
+## Arrays
+
+* 7 kyu https://www.codewars.com/kata/head-tail-init-and-last 
+* 6 kyu https://www.codewars.com/kata/array-deep-count
+* 6 kyu https://www.codewars.com/kata/valid-string
+* 6 kyu https://www.codewars.com/kata/sorting-by-bits
+* 6 kyu https://www.codewars.com/kata/length-of-missing-array
+* 6 kyu https://www.codewars.com/kata/pair-of-gloves
+* 6 kyu https://www.codewars.com/kata/lets-recycle
+
+## Functions
+
+* 7 kyu https://www.codewars.com/kata/javascript-mathematician
+* 6 kyu https://www.codewars.com/kata/closures-and-scopes
+* 6 kyu https://www.codewars.com/kata/can-you-keep-a-secret
+* 6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-1-map
+* 6 kyu https://www.codewars.com/kata/javascript-from-the-inside-number-2-filter
+* 6 kyu https://www.codewars.com/kata/power-bind
+
+
+## Date and time
+
+* 7 kyu https://www.codewars.com/kata/the-coupon-code 
+* 7 kyu https://www.codewars.com/kata/unlucky-days 
+* 6 kyu https://www.codewars.com/kata/angle-between-clock-hands
+* 4 kyu https://www.codewars.com/kata/human-readable-duration-format 
+
+
+## Objects
+
+* 7 kyu https://www.codewars.com/kata/mylanguages
+* 6 kyu https://www.codewars.com/kata/run-length-encoding
+* 6 kyu https://www.codewars.com/kata/urban-dictionary
+* 6 kyu https://www.codewars.com/kata/walk-the-object-path
+
+## Data Structures
+
+* 7 kyu https://www.codewars.com/kata/convert-a-linked-list-to-a-string 
+* 5 kyu https://www.codewars.com/kata/fun-with-trees-array-to-tree 
+
+
+
+## Classes, Prototypes
+
+* 8 kyu https://www.codewars.com/kata/regular-ball-super-ball
+* 7 kyu https://www.codewars.com/kata/what-a-classy-song
+* 7 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance 
+* 7 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-4-cubes-and-setters 
+* 6 kyu https://www.codewars.com/kata/fun-with-es6-classes-number-6-fake-files-basic
+* 6 kyu https://www.codewars.com/kata/array-helpers
+* 6 kyu https://www.codewars.com/kata/array-number-reduce
+* 5 kyu https://www.codewars.com/kata/using-closures-to-share-class-state
+
+## Asynchronous
+
+* 6 kyu https://www.codewars.com/kata/i-promise-not-to-optimize
+* 6 kyu https://www.codewars.com/kata/jokes-youve-been-awaiting-for-dot-dot-dot-promise
+* 6 kyu https://www.codewars.com/kata/nuclear-missile-manager
+
+## OOP, Design Patterns
+
+* 7 kyu https://www.codewars.com/kata/santaclausable-interface
+* 7 kyu https://www.codewars.com/kata/singleton-pattern
+* 7 kyu http://www.codewars.com/kata/patterncraft-adapter/
+* 7 kyu http://www.codewars.com/kata/patterncraft-visitor/
+* 6 kyu http://www.codewars.com/kata/patterncraft-state/
+* 6 kyu http://www.codewars.com/kata/patterncraft-strategy/
+* 6 kyu http://www.codewars.com/kata/patterncraft-decorator/
+* Beta  https://www.codewars.com/kata/class-extension-model-with-mixin-ability
+* 6 kyu https://www.codewars.com/kata/extract-nested-object-reference 
+* 6 kyu https://www.codewars.com/kata/image-host-filename-generator
+* 5 kyu https://www.codewars.com/kata/replicate-new 
+* 5 kyu https://www.codewars.com/kata/simple-events
+* 4 kyu http://www.codewars.com/kata/undo-slash-redo
+* 4 kyu https://www.codewars.com/kata/dependency-injection
+
+
+
+## Functional Programming and HOF
+
+* Beta  https://www.codewars.com/kata/uncurrying
+* 7 kyu https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
+* 7 kyu https://www.codewars.com/kata/the-wheat-slash-rice-and-chessboard-problem
+* 7 kyu https://www.codewars.com/kata/functional-addition 
+* 6 kyu https://www.codewars.com/kata/ho-ho-ho-with-functions
+* 6 kyu https://www.codewars.com/kata/reusable-memoisation
+* 6 kyu https://www.codewars.com/kata/once
+* 6 kyu https://www.codewars.com/kata/multifilter
+* 6 kyu https://www.codewars.com/kata/combinator-flip
+* 6 kyu https://www.codewars.com/kata/mutual-recursion
+* 6 kyu https://www.codewars.com/kata/function-composition
+* 6 kyu https://www.codewars.com/kata/function-composition-1
+* 5 kyu https://www.codewars.com/kata/function-cache
+* 5 kyu https://www.codewars.com/kata/a-chain-adding-function
+* 5 kyu https://www.codewars.com/kata/lazy-repeater
+
+
+
+## Практика
+
+- 8 kyu https://www.codewars.com/kata/function-1-hello-world
+- 8 kyu https://www.codewars.com/kata/quarter-of-the-year
+- 8 kyu https://www.codewars.com/kata/capitalization-and-mutability
+- 8 kyu https://www.codewars.com/kata/century-from-year
+- 8 kyu https://www.codewars.com/kata/convert-a-number-to-a-string
+- 8 kyu https://www.codewars.com/kata/convert-a-string-to-a-number
+- 8 kyu https://www.codewars.com/kata/convert-to-binary
+- 8 kyu https://www.codewars.com/kata/even-or-odd
+- 8 kyu https://www.codewars.com/kata/fake-binary/javascript
+- 7 kyu https://www.codewars.com/kata/largest-square-inside-a-circle
+- 7 kyu https://www.codewars.com/kata/number-of-decimal-digits
+- 8 kyu https://www.codewars.com/kata/opposite-number
+- 7 kyu https://www.codewars.com/kata/perimeter-sequence
+- 8 kyu https://www.codewars.com/kata/remove-first-and-last-character
+- 8 kyu https://www.codewars.com/kata/remove-string-spaces
+- 7 kyu https://www.codewars.com/kata/string-ends-with
+- 8 kyu https://www.codewars.com/kata/simple-multiplication
+- 8 kyu https://www.codewars.com/kata/string-repeat
+- 8 kyu https://www.codewars.com/kata/students-final-grade
+- 8 kyu https://www.codewars.com/kata/switch-it-up
+- 8 kyu https://www.codewars.com/kata/thinkful-logic-drills-traffic-light
+- 8 kyu https://www.codewars.com/kata/third-angle-of-a-triangle
+- 8 kyu https://www.codewars.com/kata/transportation-on-vacation
+- 8 kyu https://www.codewars.com/kata/type-of-sum
+- 8 kyu https://www.codewars.com/kata/will-you-make-it
+
+
+
+
+
+
+
+# Codewars Intermediate
+
+- 8 kyu https://www.codewars.com/kata/take-an-arrow-to-the-knee-functionally
+- 8 kyu https://www.codewars.com/kata/merge-two-sorted-arrays-into-one
+- 7 kyu https://www.codewars.com/kata/16-plus-18-equals-214
+- 7 kyu https://www.codewars.com/kata/add-property-to-every-object-in-array
+- 7 kyu https://www.codewars.com/kata/colour-association
+- 7 kyu https://www.codewars.com/kata/combine-objects
+- 7 kyu https://www.codewars.com/kata/count-the-digit
+- 7 kyu https://www.codewars.com/kata/find-the-missing-element-between-two-arrays
+- 7 kyu https://www.codewars.com/kata/get-decimal-part-of-the-given-number
+- 7 kyu https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7
+- 7 kyu https://www.codewars.com/kata/whose-bicycle
+- 7 kyu https://www.codewars.com/kata/nickname-generator
+- 7 kyu https://www.codewars.com/kata/odd-even-string-sort
+- 7 kyu https://www.codewars.com/kata/power-of-two
+- 7 kyu https://www.codewars.com/kata/string-reordering
+- 7 kyu https://www.codewars.com/kata/minimize-sum-of-array-array-series-number-1
+- 7 kyu https://www.codewars.com/kata/unpacking-arguments
+- 7 kyu https://www.codewars.com/kata/vowel-one
+- 7 kyu https://www.codewars.com/kata/who-is-the-killer-1
+- 6 kyu https://www.codewars.com/kata/data-reverse
+
+
+
+
+# Codewars Advanced
+
+- 7 kyu https://www.codewars.com/kata/count-strings-in-objects
+- 6 kyu https://www.codewars.com/kata/base-conversion
+- 6 kyu https://www.codewars.com/kata/bingo-card
+- 6 kyu https://www.codewars.com/kata/bit-counting
+- 6 kyu https://www.codewars.com/kata/clocky-mc-clock-face
+- 6 kyu https://www.codewars.com/kata/is-a-number-prime
+- 6 kyu https://www.codewars.com/kata/lottery-ticket
+- 6 kyu https://www.codewars.com/kata/weird-string-case
+- 6 kyu https://www.codewars.com/kata/who-likes-it
+- 5 kyu https://www.codewars.com/kata/rgb-to-hex-conversion
