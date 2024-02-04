@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nest app
+    body 
+        h1 Notes
+        ul 
+            each note in notes 
+                li #{note.title}
+                    a(href=note.id) Read more 
+        a(href='create') Create note 
+
+        p 
+            a(href='login') Go to Login
