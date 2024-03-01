@@ -1,0 +1,80 @@
+.petList {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &-title {
+    padding-block: 30px;
+    color: var(--color1);
+  }
+  &-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    img {
+      width: 30%;
+      cursor: pointer;
+    }
+    @media (max-width: 767px) {
+      img {
+        width: 40%;
+      }
+    }
+  }
+
+  &-content {
+    width: 100%;
+    // padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+  }
+}
+
+.pagination,
+.paginationAdaptive {
+  display: flex;
+  margin-top: 20px;
+}
+.pagination {
+  @media (max-width: 999px) {
+    display: none;
+  }
+}
+
+.paginationAdaptive {
+  @media (min-width: 999px) {
+    display: none;
+  }
+  @media (max-width: 550px) {
+    justify-content: center;
+  }
+}
+.paginationItem {
+  padding: 20px;
+  border: 2px solid var(--color4);
+  border-radius: 3px;
+  margin-left: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  @media (max-width: 400px) {
+    padding: 15px;
+  }
+  &_current {
+    border: 3px solid var(--color2);
+  }
+}
+.transition {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

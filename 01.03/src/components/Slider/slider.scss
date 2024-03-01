@@ -1,0 +1,25 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-navigation {
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--color1);
+    cursor: pointer;
+  }
+}
+.swiper {
+  margin: 15px;
+  &-wrapper {
+    align-items: center;
+  }
+}
+img {
+  object-fit: cover;
+
+  // height: 100%;
+}
+.img {
+  width: 100%;
+}
