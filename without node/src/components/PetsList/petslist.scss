@@ -1,0 +1,88 @@
+.petList {
+  width: 100%;
+  padding: 20px 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 20px;
+  @media (max-width: 768px) {
+    padding: 10px 9%;
+  }
+  &-title {
+    padding-block: 30px;
+    color: var(--color1);
+  }
+  &-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    img {
+      width: 30%;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      img {
+        width: 40%;
+      }
+    }
+  }
+  &-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
+  }
+  &-pagination,
+  &-paginationAdaptive {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  &-pagination {
+    @media (max-width: 999px) {
+      display: none;
+    }
+  }
+  &-paginationAdaptive {
+    @media (min-width: 999px) {
+      display: none;
+    }
+    @media (max-width: 550px) {
+    }
+  }
+  &-paginationItem {
+    padding: 20px;
+    border: 2px solid var(--color4);
+    border-radius: 3px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      background: #cbc8c8;
+      transition: all 0.25s ease-in-out;
+    }
+    @media (max-width: 400px) {
+      padding: 15px;
+    }
+  }
+  &-paginationItem_current {
+    border: 3px solid var(--color2);
+    &:hover {
+      transform: none;
+    }
+  }
+  &-transition {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

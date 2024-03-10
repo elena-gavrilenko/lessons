@@ -1,0 +1,55 @@
+.someFacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 9%;
+  position: relative;
+  &::after {
+    content: '';
+    background: url('./assets/paw.png') center 20% no-repeat;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    @media (max-width: 1024px) {
+      background: url('./assets/paw.png') 40% 20% no-repeat;
+    }
+    @media (max-width: 550px) {
+      background: url('./assets/paw.png') 20% 20% no-repeat;
+    }
+  }
+  &-text {
+    font-size: 20px;
+    text-align: justify;
+    @media (max-width: 550px) {
+      font-size: 16px;
+    }
+    p {
+      text-indent: 25px;
+      &:nth-child(1),
+      &:nth-child(4) {
+        text-indent: 0;
+      }
+      &:last-child {
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+    span {
+      padding-left: 25px;
+    }
+  }
+  &-img1 {
+    width: 27%;
+    float: right;
+    padding: 10px 0 5px 20px;
+  }
+  &-img2 {
+    width: 30%;
+    float: left;
+    padding: 20px 20px 20px 0;
+  }
+}
