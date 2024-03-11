@@ -1,0 +1,56 @@
+.burger {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  position: relative;
+  transition: transform 1s ease-in-out;
+  z-index: 3;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    display: none;
+  }
+  &-line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color2);
+    position: absolute;
+    left: 50%;
+    // задает точку, относительно которой будет происходить трансформация
+    transform-origin: center;
+    transform: translate(-50%, -50%);
+    &:first-child {
+      top: calc(50% - 10px);
+      transition: top 0.25s 0.25s ease-in-out, transform 0.25s ease-in-out;
+    }
+    &:nth-child(2) {
+      top: 50%;
+      transition: visibility 0.25s 0.25s ease-in-out;
+    }
+    &:last-child {
+      top: calc(50% + 10px);
+      transition: top 0.25s 0.25s ease-in-out, transform 0.25s ease-in-out;
+    }
+    .active > & {
+      &:first-child {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        transition: top 0.25s ease-in-out, transform 0.25s 0.25s ease-in-out;
+      }
+      &:nth-child(2) {
+        visibility: hidden;
+        transition: visibility 0.25s ease-in-out;
+      }
+      &:last-child {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        transition: top 0.25s ease-in-out, transform 0.25s 0.25s ease-in-out;
+      }
+      .active body {
+        overflow: hidden;
+      }
+    }
+  }
+}

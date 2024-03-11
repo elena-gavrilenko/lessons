@@ -1,0 +1,68 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+  @media (max-width: 550px) {
+    gap: 15px;
+    padding-top: 20px;
+  }
+  &-title {
+    @media (max-width: 550px) {
+      font-size: 20px;
+    }
+  }
+  &-subtitle {
+    @media (max-width: 550px) {
+      font-size: 16px;
+    }
+  }
+  &-link {
+    font-size: 30px;
+    color: var(--color1);
+    text-decoration: underline;
+    &:hover {
+      color: var(--color4);
+    }
+    @media (max-width: 550px) {
+      font-size: 20px;
+    }
+  }
+  &-content {
+    background-color: var(--color3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    @media (max-width: 550px) {
+      width: 80%;
+      gap: 10px;
+    }
+  }
+  &-img {
+    width: 70%;
+  }
+  &-img img {
+    width: 100%;
+  }
+  &-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    @media (max-width: 550px) {
+      width: 80%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.help {
+  width: 100%;
+  padding: 20px 9%;
+  @media (max-width: 768px) {
+    padding: 10px 9%;
+  }
+  &-title {
+    padding-block: 30px;
+    color: var(--color1);
+    @media (max-width: 600px) {
+      padding-block: 10px;
+      font-size: 20px;
+    }
+  }
+}
